@@ -2,7 +2,7 @@ version: 2
 jobs:
       dawn:
             docker:
-                  - image: ubuntu:eoan
+                  - image: gtclang/dawn-env-ubuntu19.10
             steps:
                   - checkout:
                           path: /usr/src/dawn
